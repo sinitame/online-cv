@@ -7,7 +7,16 @@
  * Website: http://themes.3rdwavemedia.com/
 */
 
+@import "variables";
+
+/* Mixins and functions */
+@import "vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+
 @import "mixins";
 @import "base";
 @import "responsive";
 @import "print";
+@import "navigation";
+@import "masthead";
+

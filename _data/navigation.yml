@@ -1,0 +1,9 @@
+main:
+  - title: "Blog"
+    url: https://sinitame.github.io/posts/
+  - title: "Projects"
+    url: https://sinitame.github.io/projects/
+  - title: "CV"
+    url: /online-cv/
+  - title: "About"
+    url: https://sinitame.github.io/
