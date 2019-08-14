@@ -11,6 +11,7 @@ chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't wa
 
 # Tracker
 analytics:
+search: true
 
 # Sass/SCSS
 sass:
