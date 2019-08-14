@@ -3,7 +3,7 @@
 # Site Settings
 title: ES
 url: 'https://sinitame.github.io/online-cv'
-baseurl: '' #change it according to your repository name
+baseurl: '/online-cv' #change it according to your repository name
 description: My beautiful online CV
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: custom # blue turquoise green berry orange ceramic
