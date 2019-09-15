@@ -37,7 +37,7 @@ sidebar:
 
 career-profile:
     title: Career Profile
-    summary: Currently, in my last year of engineering studies, I am looking for an internship in the field of AI.
+    summary: | Currently, in my last year of engineering studies, I am looking for an internship in the field of AI.
 
 After courses oriented embedded systems, I’m now getting specialized in the fields of Artificial Intelligence. This double expertise (Hardware/AI) allows me to understand these new technologies and to know how to develop and deploy them on data centers or in the edge. 
 
@@ -53,7 +53,7 @@ education:
     - degree: BSc in Engineering
       university: PHELMA, Grenoble Institute of Technology
       time: 2016 - 2017
-      details: Core courses :
+      details: | Core courses :
           - Physics
           - Electronics
           - Telecommunications
