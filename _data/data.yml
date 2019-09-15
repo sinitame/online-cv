@@ -45,7 +45,7 @@ education:
     - degree: Incomming Exchange Student
       university: EPFL, Ecole Polytechnique Federale de Lausanne
       time: 2019 - 2020
-      details: Major : Data science
+      details: Data science major
     - degree: MSc in Embbeded Devices
       university: ENSIMAG, Grenoble Institute of Technology
       time: 2017 - 2019
@@ -82,7 +82,7 @@ experiences:
           - OpenCL programming
           - Code generator development to support multiple networks architecture acceleration (Python and TCL)
         Big Data & Cybersecurity department (Extreme Big Data team - Hardware acceleration)
-        | Internship Supervisor : Alban Bourge
+        Internship Supervisor, Alban Bourge
 
 projects:
     title: Projects
