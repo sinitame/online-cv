@@ -64,7 +64,7 @@ experiences:
       - role: Machine Learning engineer intern
         time: February 2020 - July 2020
         company: IBM, Montpellier
-        details: | Development of machine learning solutions for lung cancer detection on CT scans
+        details: Development of machine learning solutions for lung cancer detection on CT scans |
             - Research and development of a medical data generation pipeline using GANs
             - Nodule detection and segmentation with DL models (Unet 3D, Retina Unet)
             - Building a cloud solution for inference integrated with ITK-SNAP (visualisation tool)
@@ -75,7 +75,7 @@ experiences:
     - role: R&D Engineer Internship
       time: April 2019 - August 2019
       company: IBM, Montpellier
-      details: | Design and development of a massaive data acquisition pipeline on Power9 servers.
+      details: Design and development of a massaive data acquisition pipeline on Power9 servers. |
           - Integration of an FPGA accelerator with CAPI
           - Integration of Nvidia GPU
           - Study and development of Proof Of Concepts integrating FPGA and GPU with optimized data transferts for clients
@@ -86,7 +86,7 @@ experiences:
     - role: R&D Engineer Internship
       time: June 2018 - November 2018
       company: Bull (Atos), Echirolles
-      details: | Development of hardware accelerators (FPGA) for Deep Learning algorithms
+      details: Development of hardware accelerators (FPGA) for Deep Learning algorithms. |
           - Development of RTL kernels (VHDL - Vivado and SDAccel)
           - VHDL components verification with GHDL and GTKwave using UVVM
           - OpenCL programming
