@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Emrick Sinitambirivoutin
-    tagline: R&D Engineer
+    tagline: Machine Learning Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -37,30 +37,44 @@ sidebar:
 
 career-profile:
     title: Career Profile
-    summary: | 
-      Currently, in my last year of engineering studies, I am looking for an internship in the field of AI.
-      After courses oriented embedded systems, I’m now getting specialized in the fields of Artificial Intelligence. This double expertise (Hardware/AI) allows me to understand these new technologies and to know how to develop and deploy them on data centers or in the edge. 
+    summary: |
+      After courses oriented embedded systems, I’m now getting specialized in the fields of Artificial Intelligence. This double expertise (Hardware/AI) allows me to understand these new technologies and to know how to develop and deploy them on data centers or in the edge.
 
 education:
-    - degree: Incomming Exchange Student
+    - degree: Exchange Student in Datascience
       university: EPFL, Ecole Polytechnique Federale de Lausanne
       time: 2019 - 2020
-      details: Data science major
-    - degree: MSc in Embbeded Devices
+      details: |
+        - Machine learning, Applied Data Analysis and Mathematics for data science
+        - Image processing
+    - degree: MSc in Embbeded Software Engineering
       university: ENSIMAG, Grenoble Institute of Technology
       time: 2017 - 2019
-      details:
+      details: |
+        - Computer architecture and operating systems
+        - Control theory and informatics, prototyping and validation of complex systems.
+        - Communication Networks and network systems security.
     - degree: BSc in Engineering
       university: PHELMA, Grenoble Institute of Technology
       time: 2016 - 2017
       details: |
-        Core courses
-          - Physics
-          - Electronics
-          - Telecommunications
+        - Electronic, Logic and signal processing.
+        - Mathematic and computer science.
 
 experiences:
-    - role: R&D Engineer Internship 
+      - role: Machine Learning engineer intern
+        time: February 2020 - July 2020
+        company: IBM, Montpellier
+        details: |
+          Development of machine learning solutions for lung cancer detection on CT scans
+            - Research and development of a medical data generation pipeline using GANs
+            - Nodule detection and segmentation with DL models (Unet 3D, Retina Unet)
+            - Building a cloud solution for inference integrated with ITK-SNAP (visualisation tool)
+
+          | Team : Power sytems, Cognitive system Lab
+          | Internship supervisor : Jean-Armand Broyelle
+
+    - role: R&D Engineer Internship
       time: April 2019 - August 2019
       company: IBM, Montpellier
       details: |
@@ -71,7 +85,7 @@ experiences:
 
         | Team : Power sytems, Cognitive system Lab
         | Internship supervisor : Jean-Armand Broyelle and Bruno Mesnet
-    
+
     - role: R&D Engineer Internship
       time: June 2018 - November 2018
       company: Bull (Atos), Echirolles
@@ -87,30 +101,24 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Here are some projects I made during my academic path.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Global Gene Expression Analysis: Determine Hormone Signaling Activation in Human Breast Cancer Samples
+        link: "https://github.com/sinitame/epfl-breast-cancer-ml-project"
+        tagline: "This project was part of the Machine Learning course @EPFL and was performed with PhD students @EPFL Brisken lab. The goal was to be able to cluster patients according to some gene activations specific to their receptivity to some hormones. Best semestre project Award."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Epileptic Seizure Prediction on iEEGs Signals Using Machine Learning
+        link: "https://github.com/sinitame/ieeg-ml-project"
+        tagline: "This project was a semester project supervised by Reza Ranjandish @EPFL Microelectronic System Laboratory. The aim of this project was to explore ML algorithms to detect epileptic seizure using iEEG recordings in order to integrate them in a brain implantable device developed at the laboratory."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Exploring French National Trafic Injuries Data
+        link: "https://epfl-ada-project.github.io/"
+        tagline: "This project was part of the Applied Data Analysis course @EPFL. The goal was to explore 10 years of data from the national traffic injuries dataset in France provided by ONSIR and to extract meaningful insights."
 
-      - title: Atom
+      - title: Compression of CNN for Embedded devices
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "The goal of this project was to perform a study of state of the art technics to compress neural networks in order to make them more efficient on low constrained devices. I made this project @GrenobleINP TIMA laboratory on the supervision of Stephane Mancini."
 
 skills:
     title: Skills &amp; Proficiency
@@ -128,7 +136,7 @@ skills:
       - name: Computer architecture
         level: 80%
 
-      - name: FPGA & Xilinx Tools
+      - name: Machine learning
         level: 80%
 
 footer: >
