@@ -60,11 +60,15 @@ education:
         - Electronic, Logic and signal processing.
         - Mathematic and computer science.
 experiences:
-    - role: Machine Learning engineer intern
+    - role: Machine Learning Engineer
+      time: September 2020
+      company: Sonos, Paris
+
+    - role: Machine Learning Engineer Intern
       time: February 2020 - July 2020
       company: IBM, Montpellier
       details: |
-        Development of machine learning solutions for lung cancer detection on CT scans
+        Development of machine learning solutions for lung cancer detection on CT scans.
             - Research and development of a medical data generation pipeline using GANs
             - Nodule detection and segmentation with DL models (Unet 3D, Retina Unet)
             - Building a cloud solution for inference integrated with ITK-SNAP (visualisation tool)
